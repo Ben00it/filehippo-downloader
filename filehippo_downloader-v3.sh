@@ -204,7 +204,7 @@ $WGET --output-document "$DESTINATION_DOWNLOAD$SOFTWARE/$EXTENSION_APP" "http://
 #############################################################################
 
 
-#Step 1 - We're reading file To_download.txt, then launch funtion
+#Step 1 - We're reading file To_download.txt, then launch function
         while read SOFTWARE
                 do
                 # Reset Variables
