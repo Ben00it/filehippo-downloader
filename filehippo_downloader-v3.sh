@@ -49,6 +49,12 @@
 #------If you need -> Debug Mode (Filehippo Structure may change) :  --------
 #               set -x
 #
+# Howto add in cron 'crontab -e'  : 
+## Launch filehippo_downloader.v2.sh daily at 8am :
+## 0 8 * * * /home/filehippo_script/filehippo_downloader.v3.sh 2>&1 >/tmp/filehippo_script.log 
+# 
+# The full result will be push in /tmp/filehippo_script.log 
+#
 #############################################################################
 #            -       Set_Var         -                                      #
 #############################################################################
