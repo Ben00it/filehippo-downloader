@@ -1,0 +1,5 @@
+firefox
+7-zip_64
+7zip_32
+ccleaner
+skype
